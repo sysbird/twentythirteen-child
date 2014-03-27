@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+Theme Name: Twentythirteen Child
+Template:   twentythirteen
+Version:    1.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+.home #primary {
+	background: #E8E5CE;}
+
+.home #primary:after {
+	content: ""; 
+	clear: both; 
+	display: block;}
+
+.home .masonry-wrapper {
+	width: 930px;
+	margin: 0 auto;}
+
+.home .hentry {
+	width: 300px;
+	background: #FFF;
+	padding: 0;
+	margin: 5px;
+	float: left; }
+
+.home .hentry h1 {
+	 font-size: 28px;
+	padding: 0 10px;}
+
+.site-footer {
+	clear: both;
+}
